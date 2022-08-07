@@ -17,7 +17,7 @@ const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d');
 
 const playerImage = new Image();
-playerImage.src = '../assets/img/shadow_dog.png';
+playerImage.src = '../assets/img/shadow_dog/shadow_dog.png';
 
 canvas.width = CANVAS_WIDTH;
 canvas.height = CANVAS_HEIGHT;
