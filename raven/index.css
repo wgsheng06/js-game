@@ -3,7 +3,10 @@ html,body {
   height: 100%;
 }
 body {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-image: linear-gradient(135deg, #A88BEB
+  ,
+  #F8CEEC); 
 }
 * {
   padding: 0;
@@ -11,7 +14,7 @@ body {
   box-sizing: border-box;
 }
 
-#canvas1 {
+.canvas {
   width: 1000px;
   height: 700px;
   position: absolute;
@@ -19,6 +22,8 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   border: 3px solid #222;
-  background-color: #fff;
+  
 }
-
+.canvas2 {
+  opacity: 0;
+}
