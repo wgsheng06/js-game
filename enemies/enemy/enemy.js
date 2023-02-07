@@ -1,0 +1,4 @@
+class Enemy {
+  update() {}
+  draw() {}
+}
